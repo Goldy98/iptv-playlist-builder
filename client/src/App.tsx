@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <button className="bg-chocolate_cosmos">HELLO WORLD</button>
+      <button className="bg-accent">HELLO WORLD</button>
     </>
   );
 }

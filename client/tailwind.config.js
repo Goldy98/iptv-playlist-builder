@@ -3,66 +3,26 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      chocolate_cosmos: {
-        DEFAULT: "#4f000b",
-        100: "#0f0002",
-        200: "#1f0004",
-        300: "#2e0006",
-        400: "#3d0008",
-        500: "#4f000b",
-        600: "#a30016",
-        700: "#fa0021",
-        800: "#ff5269",
-        900: "#ffa8b4",
-      },
-      claret: {
-        DEFAULT: "#720026",
-        100: "#160007",
-        200: "#2d000f",
-        300: "#430016",
-        400: "#5a001e",
-        500: "#720026",
-        600: "#c00040",
-        700: "#ff1060",
-        800: "#ff6095",
-        900: "#ffafca",
-      },
-      amaranth: {
-        DEFAULT: "#ce4257",
-        100: "#2b0b10",
-        200: "#561620",
-        300: "#812130",
-        400: "#ac2c3f",
-        500: "#ce4257",
-        600: "#d86778",
-        700: "#e28d99",
-        800: "#ebb3bb",
-        900: "#f5d9dd",
-      },
-      coral: {
-        DEFAULT: "#ff7f51",
-        100: "#431200",
-        200: "#872400",
-        300: "#ca3600",
-        400: "#ff4e0e",
-        500: "#ff7f51",
-        600: "#ff9974",
-        700: "#ffb397",
-        800: "#ffccba",
-        900: "#ffe6dc",
-      },
-      sandy_brown: {
-        DEFAULT: "#ff9b54",
-        100: "#431c00",
-        200: "#873800",
-        300: "#ca5400",
-        400: "#ff730e",
-        500: "#ff9b54",
-        600: "#ffae74",
-        700: "#ffc297",
-        800: "#ffd7ba",
-        900: "#ffebdc",
-      },
+      primary: "#5d2e8c",
+
+      secondary: "#ff6666",
+
+      accent: "#2ec4b6",
+
+      neutral: "#010502",
+
+      "base-100": "#fbf8ff",
+
+      info: "#00daff",
+
+      success: "#CCFF66",
+
+      warning: "#fbbf24",
+
+      error: "#dc2626",
+    },
+    fontFamily: {
+      montSerrat: ["Montserrat", "sans-serif"],
     },
     extend: {},
   },
