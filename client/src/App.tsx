@@ -1,10 +1,11 @@
 import "./App.css";
+import Home from "./views/Home";
 
 function App() {
   return (
-    <>
-      <button className="bg-accent">HELLO WORLD</button>
-    </>
+    <div className="bg-default h-[100vh] w-full">
+      <Home />
+    </div>
   );
 }
 
