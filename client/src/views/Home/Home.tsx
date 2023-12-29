@@ -1,3 +1,4 @@
+import UploadField from "../../components/UploadField/UploadField";
 import "./Home.css";
 import BuzzWord from "./components/BuzzWord";
 
@@ -9,6 +10,10 @@ function Home() {
         Edit (<BuzzWord />) your .m3u playlist for IPTV with our user friendly
         app
       </h3>
+
+      <div className="mt-5">
+        <UploadField />
+      </div>
     </div>
   );
 }
